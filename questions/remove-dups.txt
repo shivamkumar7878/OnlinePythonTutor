@@ -20,6 +20,8 @@ Skeleton:
 
 def removeDups(s):
     # write your solution code here
+    result=" ".join(set(s))
+    return result
 
 // # Example solution:
 // def removeDups(s):
