@@ -18,6 +18,11 @@ Skeleton:
 
 def sumTwoLargest(lst):
     # write your solution code here
+    lst.sort()
+    i=len(lst)
+    print(lst[i-1]+lst[i-2])
+
+    
 
 Test:
 input = [5,3,4,7,10]
