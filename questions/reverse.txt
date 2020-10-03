@@ -16,6 +16,8 @@ Skeleton:
 
 def reverse(lst):
     # write your solution code here
+    a=lst.reverse()
+    return a
 
 Test:
 input = ['a', 'b', 'c', 'd', 'e']
