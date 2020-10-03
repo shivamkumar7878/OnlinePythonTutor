@@ -19,12 +19,13 @@ MaxInstructions: 50
 
 Skeleton:
 
-def search(lst, elt):
-    ind = -1;
-    for i in range(len(lst)):
-        if lst[i] == elt:
+#This is shivam code
+
+def search(haystack, elt):
+     l=[int(input()) for i in haystack]
+    for i in haystack:
+        if haystack[i]==elt:
             return i
-    return -1
 
 
 // # Iterative solution from stackoverflow
